@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8abbVaEV4iFtObYYO4cw0YSDcwCpKUqwT2xRcJ/J+Hlmm+gvSYOz+R8tDXjUhxW8hGaduMdLUaK+A47N9mWshw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahmed.ayaad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
