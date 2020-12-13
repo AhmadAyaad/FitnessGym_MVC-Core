@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for e  mpty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model FitnessGym.Web.ViewModel.CustomerViewModel
+
+h1>Add New Customer</h1>
+
+<form method="post" class="form-group" name="roleForm">
+
+    @Html.HiddenFor(c => c.CustomerId)
+    @Html.LabelFor(c => c.CustomerName)
+    @Html.EditorFor(r => r.CustomerName, new { htmlAttributes = new { @class = "form-control" } })
+
+
+    @Html.LabelFor(c => c.Age)
+    @Html.EditorFor(c => c.Age, new { htmlAttributes = new { @class = "form-control" } })
+
+    @Html.LabelFor(c => c.Phone)
+    @Html.EditorFor(c => c.Phone, new { htmlAttributes = new { @class = "form-control" } })
+
+    @Html.LabelFor(c => c.MemeberShipStartDate)
+    @Html.EditorFor(c => c.MemeberShipStartDate, new { htmlAttributes = new { @class = "form-control" } })
+
+    @Html.LabelFor(c => c.MemeberShipEndDate)
+    @Html.EditorFor(c => c.MemeberShipEndDate, new { htmlAttributes = new { @class = "form-control" } })
+
+    <select asp-for="MemberShipType" asp-items="Html.GetEnumSelectList<FitnessGym.Models.MemberShipType>()">
+        <option selected="selected" value="">Please select</option>
+    </select>
+    @Html.DropDownListFor(model => model.CoachId, new SelectList(Model.Coaches, "CoachId", "CoachName")
+
+, new { @class = "form-control" })
+
+
+
+    <input id="savebtn" type="submit" value="Save" class="mt-4 btn btn-dark" />
+
+</form>

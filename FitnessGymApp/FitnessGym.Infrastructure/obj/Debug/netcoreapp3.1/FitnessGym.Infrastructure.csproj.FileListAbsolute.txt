@@ -13,3 +13,18 @@ C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Infrastructure\ob
 C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.dll
 C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.pdb
 C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.genruntimeconfig.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Infrastructure.deps.json
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Infrastructure.runtimeconfig.json
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Infrastructure.runtimeconfig.dev.json
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Infrastructure.dll
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Infrastructure.pdb
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Models.dll
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\bin\Debug\netcoreapp3.1\FitnessGym.Models.pdb
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.csprojAssemblyReference.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.AssemblyInfoInputs.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.AssemblyInfo.cs
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.csproj.CoreCompileInputs.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.csproj.CopyComplete
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.dll
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.pdb
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Infrastructure\obj\Debug\netcoreapp3.1\FitnessGym.Infrastructure.genruntimeconfig.cache

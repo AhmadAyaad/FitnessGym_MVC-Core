@@ -7,3 +7,12 @@ C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Models\obj\Debug\
 C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.csproj.CoreCompileInputs.cache
 C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.dll
 C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.pdb
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\bin\Debug\netcoreapp3.1\FitnessGym.Models.deps.json
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\bin\Debug\netcoreapp3.1\FitnessGym.Models.dll
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\bin\Debug\netcoreapp3.1\FitnessGym.Models.pdb
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.csprojAssemblyReference.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.AssemblyInfoInputs.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.AssemblyInfo.cs
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.csproj.CoreCompileInputs.cache
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.dll
+F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Models\obj\Debug\netcoreapp3.1\FitnessGym.Models.pdb

@@ -1,4 +1,5 @@
-﻿using FitnessGym.Models;
+﻿using FitnessGym.Infrastructure.Helpers;
+using FitnessGym.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,16 +11,20 @@ namespace FitnessGym.Infrastructure.Repository
     public class CustomerRepository : IRepository<Customer>
     {
         readonly DataContext _context;
-        public CustomerRepository(DataContext context)
+        private readonly Helper _helper;
+
+        public CustomerRepository(DataContext context, Helper helper)
         {
             _context = context;
+            _helper = helper;
         }
 
         public async void Create(Customer customer)
         {
             if (customer != null)
             {
-                _context.Customers.Add(customer);
+                if (!_helper.CheckIfCustomerExists(customer))
+                    _context.Customers.Add(customer);
                 await _context.SaveChangesAsync();
             }
         }

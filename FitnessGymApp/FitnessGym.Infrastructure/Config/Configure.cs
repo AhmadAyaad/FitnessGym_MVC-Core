@@ -1,4 +1,5 @@
-﻿using FitnessGym.Infrastructure.Repository;
+﻿using FitnessGym.Infrastructure.Helpers;
+using FitnessGym.Infrastructure.Repository;
 using FitnessGym.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +15,7 @@ namespace FitnessGym.Infrastructure.Config
         {
             services.AddDbContext<DataContext>(options => options.UseSqlServer(connectionString));
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<Helper>();
             services.AddScoped<IRepository<Product>, ProductRepository>();
             services.AddScoped<IRepository<Customer>, CustomerRepository>();
             services.AddScoped<IRepository<Coach>, CoachRepository>();

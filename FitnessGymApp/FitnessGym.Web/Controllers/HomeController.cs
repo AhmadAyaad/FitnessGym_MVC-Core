@@ -14,12 +14,10 @@ namespace FitnessGym.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IRepository<Customer> _customerRepository;
 
-        public HomeController(ILogger<HomeController> logger, IRepository<Customer> customerRepository)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _customerRepository = customerRepository;
         }
 
         public IActionResult Index()
@@ -27,9 +25,8 @@ namespace FitnessGym.Web.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Privacy()
+        public IActionResult Privacy()
         {
-            Trace.WriteLine(await _customerRepository.GetAll());
             return View();
         }
 
