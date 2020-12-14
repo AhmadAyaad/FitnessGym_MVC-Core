@@ -12,12 +12,13 @@ namespace FitnessGym.Models
         public string ProductName { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; } = 0;
-
         public int? CategoryId { get; set; }
         public Category Category { get; set; }
+        public DateTime CreateAt { get; set; } = DateTime.Now;
         public override string ToString()
         {
-            return $"{ProductName}";
+            return $"{ ProductName}";
         }
+
     }
 }

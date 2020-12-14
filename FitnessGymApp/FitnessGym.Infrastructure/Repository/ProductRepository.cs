@@ -16,7 +16,7 @@ namespace FitnessGym.Infrastructure.Repository
         {
             _context = context;
         }
-        public async void Create(Product product)
+        public async Task Create(Product product)
         {
             if (product != null)
             {
@@ -31,7 +31,8 @@ namespace FitnessGym.Infrastructure.Repository
 
         public async Task<List<Product>> GetAll()
         {
-            var products = await _context.Products.Where(p => p.Quantity > 0).ToListAsync();
+            var products = await _context.Products.Include(p => p.Category)
+                .Where(p => p.Quantity > 0).OrderByDescending(p => p.CreateAt).AsNoTracking().ToListAsync();
             if (products != null)
                 return products;
             return new List<Product>();
@@ -44,6 +45,11 @@ namespace FitnessGym.Infrastructure.Repository
             return new Product();
         }
 
-       
+        public List<Product> GetProductsInStock()
+        {
+           return _context.Products.AsNoTracking().Where(p => p.Quantity > 0).ToList();
+        }
+
+
     }
 }

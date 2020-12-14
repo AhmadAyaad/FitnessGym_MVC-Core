@@ -167,3 +167,18 @@ F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\F
 F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\libman.json
 F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
 F:\My Projects\FitnessWeb\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Create.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Create.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Coach\Index.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Coach\Create.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\SellProduct.cshtml.g.cs
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\ahmed.ayaad\ma-projects\.Net\FitnessGymApp\FitnessGym.Web\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll

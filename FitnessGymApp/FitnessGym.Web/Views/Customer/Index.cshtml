@@ -29,7 +29,7 @@
                 <td>@item.MemeberShipStartDate.ToShortDateString()</td>
                 <td>@item.MemeberShipEndDate.ToShortDateString()</td>
                 <td>@item.MemberShipType.ToString()</td>
-                <td>@item.Phone</td>
+                <td>@String.Concat(0 , item.Phone)</td>
                 <td>@item.Age</td>
                 <td>@item.Coach?.CoachName</td>
                 <td>@item.HealthStatus</td>

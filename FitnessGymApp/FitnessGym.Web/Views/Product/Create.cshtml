@@ -1,0 +1,35 @@
+﻿@model FitnessGym.Web.ViewModel.ProductViewModel
+
+<form method="post" class="form-group" name="roleForm" asp-controller="Product" asp-action="Create" >
+
+    @Html.HiddenFor(c => c.ProductId)
+
+
+    @Html.DropDownListFor(model => model.CategoryId,
+        new SelectList(Model.Categories, "CategoryId", "CategoryName"), new { @class = "form-control" })
+
+
+
+
+    <label asp-for="ProductName"></label>
+    <input asp-for="ProductName" class="form-control" />
+
+
+    <label asp-for="Price"></label>
+    <input asp-for="Price" class="form-control" />
+
+
+    <label asp-for="Quantity"></label>
+    <input asp-for="Quantity" class="form-control" />
+
+
+    <label asp-for=" Category"></label>
+
+
+
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+
+    <input id="savebtn" type="submit" value="Save" class="mt-4 btn btn-dark" />
+
+</form>

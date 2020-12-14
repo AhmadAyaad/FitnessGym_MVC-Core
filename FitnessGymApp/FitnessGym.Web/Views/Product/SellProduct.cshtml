@@ -1,0 +1,36 @@
+﻿
+
+
+@model IEnumerable<FitnessGym.Infrastructure.ProductSellerViewModel>
+
+
+
+<form method="post" class="form-group" name="roleForm" asp-controller="Product" asp-action="SellProduct">
+
+
+
+    @foreach (var item in Model)
+    {
+
+        @Html.DropDownListFor(
+            i => item.s2,
+            new SelectList(item.s2, "CategoryId", "s2")
+        )
+    }
+
+    @*<label asp-for="ProductId"></label>
+        <select asp-for="pr" asp-items="@Model.SelectListItems">
+            <option selected="selected" value=""></option>
+        </select>*@
+
+
+
+
+
+
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+
+    <input id="savebtn" type="submit" value="Save" class="mt-4 btn btn-dark" />
+
+</form>

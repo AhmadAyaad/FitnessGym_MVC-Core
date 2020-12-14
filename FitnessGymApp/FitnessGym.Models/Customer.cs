@@ -8,6 +8,7 @@ namespace FitnessGym.Models
    public class Customer
     {
         public int CustomerId { get; set; }
+        [Required]
         public int Age { get; set; }
         public DateTime MemeberShipStartDate { get; set; }
         public DateTime MemeberShipEndDate { get; set; }
@@ -19,6 +20,7 @@ namespace FitnessGym.Models
         public MemberShipType MemberShipType { get; set; }
         public int? CoachId { get; set; }
         public Coach Coach { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
 
     }

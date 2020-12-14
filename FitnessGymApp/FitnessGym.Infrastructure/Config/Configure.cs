@@ -14,6 +14,8 @@ namespace FitnessGym.Infrastructure.Config
         public static void ConfigureServices(IServiceCollection services, string connectionString)
         {
             services.AddDbContext<DataContext>(options => options.UseSqlServer(connectionString));
+            services.AddScoped<IGetRepository<Category>, CategoryRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<Helper>();
             services.AddScoped<IRepository<Product>, ProductRepository>();

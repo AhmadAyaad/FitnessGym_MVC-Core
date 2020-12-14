@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj": {}
+    "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj": {}
   },
   "projects": {
-    "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj": {
+    "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj",
         "projectName": "FitnessGym.Infrastructure",
-        "projectPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Ahmad Ayad\\.nuget\\packages\\",
-        "outputPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ahmed.ayaad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ahmad Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahmed.ayaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj": {
-                "projectPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj"
+              "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj": {
+                "projectPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj"
               }
             }
           }
@@ -44,6 +47,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -84,17 +91,20 @@
         }
       }
     },
-    "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj": {
+    "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj",
         "projectName": "FitnessGym.Models",
-        "projectPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj",
-        "packagesPath": "C:\\Users\\Ahmad Ayad\\.nuget\\packages\\",
-        "outputPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Models\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\FitnessGym.Models.csproj",
+        "packagesPath": "C:\\Users\\ahmed.ayaad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ahmad Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahmed.ayaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,17 +154,20 @@
         }
       }
     },
-    "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj": {
+    "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj",
         "projectName": "FitnessGym.Web",
-        "projectPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj",
-        "packagesPath": "C:\\Users\\Ahmad Ayad\\.nuget\\packages\\",
-        "outputPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Web\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Web\\FitnessGym.Web.csproj",
+        "packagesPath": "C:\\Users\\ahmed.ayaad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ahmad Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahmed.ayaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,8 +181,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj": {
-                "projectPath": "F:\\My Projects\\FitnessWeb\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj"
+              "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ahmed.ayaad\\ma-projects\\.Net\\FitnessGymApp\\FitnessGym.Infrastructure\\FitnessGym.Infrastructure.csproj"
               }
             }
           }

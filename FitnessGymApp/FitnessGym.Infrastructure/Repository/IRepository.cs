@@ -7,7 +7,7 @@ namespace FitnessGym.Infrastructure.Repository
 {
     public interface IRepository<T>
     {
-        void Create(T t);
+        Task Create(T t);
         Task<List<T>> GetAll();
     }
 }

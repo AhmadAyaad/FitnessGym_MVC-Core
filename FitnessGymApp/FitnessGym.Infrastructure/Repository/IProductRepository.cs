@@ -9,5 +9,6 @@ namespace FitnessGym.Infrastructure.Repository
     public interface IProductRepository
     {
         Task<Product> GetProduct(int id);
+        List<Product> GetProductsInStock();
     }
 }

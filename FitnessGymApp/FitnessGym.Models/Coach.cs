@@ -12,7 +12,7 @@ namespace FitnessGym.Models
         public string CoachName { get; set; }
         public DateTime StartWorkingDate { get; set; }
 
-        public IEnumerable<Customer> Customers { get; set; }
+        public IEnumerable<Customer> Customers { get; set; } = new HashSet<Customer>();
 
         public override string ToString()
         {

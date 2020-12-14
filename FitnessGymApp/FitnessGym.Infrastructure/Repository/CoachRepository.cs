@@ -14,7 +14,7 @@ namespace FitnessGym.Infrastructure.Repository
         {
             _context = context;
         }
-        public async void Create(Coach coach)
+        public async Task Create(Coach coach)
         {
             if (coach != null)
             {

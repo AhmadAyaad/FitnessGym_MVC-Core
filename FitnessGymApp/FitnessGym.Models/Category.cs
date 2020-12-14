@@ -9,7 +9,7 @@ namespace FitnessGym.Models
         public int CategoryId { get; set; }
         [Required]
         public string CategoryName { get; set; }
-        public IEnumerable<Product> Products { get; set; }
+        public IEnumerable<Product> Products { get; set; } = new HashSet<Product>();
 
         public override string ToString()
         {
