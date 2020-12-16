@@ -1,22 +1,23 @@
-﻿
-
-
-@model IEnumerable<FitnessGym.Infrastructure.ProductSellerViewModel>
-
+﻿@*@model IEnumerable<FitnessGym.Infrastructure.ProductSellerViewModel>*@
+@model FitnessGym.Web.ViewModel.Test
 
 
 <form method="post" class="form-group" name="roleForm" asp-controller="Product" asp-action="SellProduct">
 
+    @Html.DropDownListFor(
+           m => m.ProductId,
+           new SelectList(Model.Products, "ProductId", "ProductName") , "please select"
+  , new { style = "width:300px;", onchange = "loadData(this)" })
 
 
-    @foreach (var item in Model)
-    {
+    @*@foreach (var item in Model)
+        {
 
-        @Html.DropDownListFor(
-            i => item.s2,
-            new SelectList(item.s2, "CategoryId", "s2")
-        )
-    }
+            @Html.DropDownListFor(
+                i => item.s2,
+                new SelectList(item.s2, "CategoryId", "s2")
+            )
+        }*@
 
     @*<label asp-for="ProductId"></label>
         <select asp-for="pr" asp-items="@Model.SelectListItems">
@@ -26,11 +27,98 @@
 
 
 
+    <div id="bla">
 
+    </div>
 
+    <select name="cars" id="cars" onchange="getQuantity(this)">
+        <option value="select">select</option>
+
+    </select>
     @Html.ValidationSummary(false, "", new { @class = "text-danger" })
 
 
-    <input id="savebtn" type="submit" value="Save" class="mt-4 btn btn-dark" />
+    <input id="savebtn" type="submit" value="Save" onclick="hamada()" class="mt-4 btn btn-dark" />
 
 </form>
+
+
+@section Scripts {
+    <script>
+        let quantity;
+        let productId;
+        function getQuantity(q) {
+             quantity = parseInt($(q).find('option:selected').val());
+            return quantity;
+        }
+
+        function hamada() {
+            var obj = {
+                Quantity: quantity ? parseInt( quantity): 0,
+                ProductId: productId? parseInt(productId):0
+            };
+            var formData = new FormData();
+
+            formData.append("quantity", obj.Quantity);
+            formData.append("productId", obj.ProductId);
+            $.ajax({
+                url: '/product/sellproduct',
+                //url: 'http://localhost:58835/product/sellproduct',
+                type: 'POST',
+                processData: false,
+                contentType: false,
+                data: formData,
+                success: function (result) {
+                    alert("Result: " + result);
+                    window.location.href = '/home';
+
+                },
+                error: function (e) {
+                    console.log(e)
+                }
+            });
+        }
+
+        function loadData(v) {
+            let res = $(v).find('option:selected').val();
+            productId =res;
+            //document.getElementById("cars").innerHTML = "";
+            $.ajax({
+                url: 'http://localhost:58835/api/product/' + res,
+                type: "GET",
+                dataType: "json",
+                success: function (result) {
+                    if (result) {
+                        var html = '';
+                        $("#bla").text(result.productName);
+                        //$('#countryDropDownList').html('');
+                        var options = '';
+
+                        var x = document.getElementById("cars");
+                        for (let i = 0; i < result.quantity; i++) {
+                            //options += '<option value="ahmad "> "ahmad"</option>';
+                            //$('#countryDropDownList').append('<option value="' + i + '">' + 'Option ' + i + '</option>');
+
+
+                            //var o = document.createElement('option');
+                            //o.text = i + 1;
+                            //o.value = i + 1;
+                            //x.add(o);
+
+                            $("#cars").append($("<option />").val(i + 1).text(i + 1));
+                        }
+
+
+
+                        //$('#countryDropDownList').append(options);
+                        //$('.tbody').html(html);
+                    }
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+        }
+
+    </script>
+}

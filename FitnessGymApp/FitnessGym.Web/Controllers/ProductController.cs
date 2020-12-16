@@ -35,7 +35,6 @@ namespace FitnessGym.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-
             return View(await _genericProductRepostiroy.GetAll());
         }
         [HttpGet]
@@ -74,21 +73,45 @@ namespace FitnessGym.Web.Controllers
             return View();
         }
 
-
-
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProductQuantity(int id)
+        {
+            var product = await _productRepository.GetProduct(id);
+            return Ok(product);
+        }
+        [HttpPost]
+        public IActionResult GetProductQuantity()
+        {
+            //var product = await _productRepository.GetProduct(id);
+            return Ok();
+        }
 
         [HttpGet]
-        public IActionResult SellProduct()
+        public async Task<IActionResult> SellProduct()
         {
-            
 
 
-                        var productSellerViewModel = _categoryRepository.GetCategoriesForProudctsInStock();
-           
-                        
-            
+
+            //var productSellerViewModel = _categoryRepository.GetCategoriesForProudctsInStock();
+            Test test = new Test();
+           test.Products =   await _genericProductRepostiroy.GetAll();
             //productSellerViewModel.SelectListItems= new SelectList(productSellerViewModel.Products, "ProductId", "ProductName";
-            return View(productSellerViewModel);
+            return View(test);
+        }
+
+
+
+        [HttpPost]
+        public IActionResult SellProduct(Test test)
+        {
+
+            return RedirectToAction("Index","Home");
+        }
+        [HttpPost("hamada")]
+        public IActionResult hamada(Test test)
+        {
+
+            return RedirectToAction("Index");
         }
     }
 }
